@@ -1,5 +1,5 @@
 # Magic_8_Ball_API
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/mnhollandplum/magic_8_ball.svg?columns=all)](https://waffle.io/mnhollandplum/magic_8_ball)[![Build Status](https://travis-ci.org/tmaria17/calorie-counter-be.svg?branch=master)](https://travis-ci.org/tmaria17/calorie-counter-be)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/mnhollandplum/magic_8_ball.svg?columns=all)](https://waffle.io/mnhollandplum/magic_8_ball)
 [![Build Status](https://travis-ci.org/mnhollandplum/magic_8_ball_api.svg?branch=master)](https://travis-ci.org/mnhollandplum/magic_8_ball_api)
 ## Introduction
  This project is an express API. This API currently has a POST endpoint to create a new piece of advice, and a GET endpoint to retreive all advice in the database.
