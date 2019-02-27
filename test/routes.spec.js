@@ -67,25 +67,6 @@ describe('API Routes', () => {
   });
 
 
-  describe('POST /api/v1/slips',() => {
-      it('should return info for the new slip', done => {
-        chai.request(server)
-        .post('/api/v1/slips')
-        .send({
-           "advice": "This is test advice",
-         })
-         .end((err,response) => {
-           response.should.have.status(201);
-           response.should.be.json;
-           response.body.should.be.a('object');
-           response.body.should.have.property('slip');
-           response.body.slip.should.have.property('advice');
-           response.body.slip.advice.should.equal('This is test advice');
-           done();
-         });
-      });
-    });
-
 
 
 });
